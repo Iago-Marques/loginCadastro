@@ -43,18 +43,17 @@ h1{
 
 .form .input{
    border: none;
-   outline: 0;
    border-bottom: 1px solid #1965e7;
    width: 50rem;
    padding: 1.5rem 0;
    transition-property:padding-left;
-   transition-duration: .2s;
+   transition-duration: .08s;
    transition-timing-function: ease-in;
    
 }
 
-.form .input:focus:hover{
-   border: 1px solid #1965e7;
+.form .input:focus{
+   outline: 1px solid #1965e7;
    padding-left: .5rem;
 }
 
